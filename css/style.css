@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.header {
+    background-color: #7857FE;
+   padding-bottom: 85px;
+   padding-top: 5px;
+   border-bottom-right-radius: 200px;
+}
+/* navigation menu starts here  */
+.header .navbar{
+    background-color: #7857FE;
+}
+.header .navbar .logo a{
+    text-decoration: none;
+    color:white;
+}
+.header .navbar-nav .nav-item .nav-link{
+    color:white;
+    padding:10px 15px;
+    display: block;
+    transition: all 0.5s ease;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+    background-color: orange;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* navigation menu ends here  */
+
+/* home-page section starts here  */
+.home .home-content {
+    margin-top: 145px;
+}
+.home .home-content h1{
+    color:white;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.home .home-content p{
+    color:#C1C9FF;
+    padding-top: 10px;
+}
+.home .home-content .btn-style{
+    padding:10px 25px;
+    border-radius: 50px;
+    margin-top: 15px;
+    color:#7857FE;
+    font-weight: 650;
+    box-shadow: 3px 3px 10px rgb(88, 88, 88);
+    background-color: #fff;
+}
+
+.home .home-img img{
+    width: 45%;
+   margin-left:150px;
+   margin-top: 50px;
+}
+
+
+/* home-page section ends here  */
+
+/* Features Section starts here  */
+.features {
+    padding-bottom: 60px;
+}
+.features .features-title span{
+    color:#7857FE;
+
+}
+.features .card{
+    box-shadow: 2px 2px 10px rgb(161, 160, 160);
+    border:none;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+.features .card:hover{
+    margin-top: -5px;
+}
+.features .card .fa-code,.fa-paint-brush,.fa-chart-line {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 25px;
+    color:#7857FE;
+}
+
+/* Features Section ends here  */
+
+
+/* Fun fects sections starts here  */
+.fun-section{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #F7F7F7;
+    margin-top: 40px;
+}
+.fun-section .fun-img{
+    width: 45%;
+    margin: auto;
+}
+.fun-section .card {
+    border:none;
+    margin-top: 20px;
+}
+.fun-section .card h3{
+    font-size:30px;
+    letter-spacing: 2px;
+}
+.fun-section .card h3,h6{
+    font-weight: 700;
+}
+
+/* fun fects section ends here  */
+
+
+/* App Screeshorts section starts here  */
+.app-section{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.app-section img{
+    width:80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* App Screeshorts section ends here  */
+
+
+/* download-apps section starts here  */
+.download-apps{
+    background-image:linear-gradient(#9174F6C7,#9174F6C7), url("../images/download-app-bg.jpg");
+    padding:60px 0px;
+    background-size: cover;
+    padding-top: 60px;
+}
+.download-apps .card{
+    border: none;
+    margin-top: 15px;
+}
+.download-apps .card .fa-code{
+    display: block;
+    margin: auto;
+    font-size: 28px;
+    margin-top: 25px;
+    color:#7857FE;
+}
+.download-apps .card p{
+    font-size: 15px;
+}
+.download-apps .card .btn-style{
+    padding:10px 25px;
+    border-radius: 50px;
+    background-color:#7857FE;
+    color:white;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+/* download-apps section ends here  */
+
+/* Works section starts here  */
+.works{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.works .works-title{
+    margin-bottom: 70px;
+}
+.works hr{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #7857FE;
+}
+.works .card {
+    border: none;
+}
+.works .card .number {
+    background-color:#7857FE ;
+    position: absolute;
+    left: 80px;
+    top: -77px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+.works .card .number h4{
+    padding-top: 10px;
+    color:white;
+}
+.works .card h4{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.works .card p{
+    font-size: 14px;
+}
+
+/* Works section ends here  */
+
+/* Testimonials section starts here  */
+.testimonials{
+    margin-top: 30px;
+    background-color: #F7F7F7;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+.testimonials .card{
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 30px;
+    box-shadow: 2px 2px 25px rgb(173, 172, 172);
+    border-radius:15px ;
+}
+
+.testimonials .card img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid #7857FE;
+    margin: auto;
+    margin-top: 30px;
+}
+.testimonials .card .card-body p{
+    color:rgb(160, 151, 151);
+}
+.testimonials .card .card-body span{
+    color:rgb(160, 151, 151);
+}
+.testimonials .card .card-body .icon {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.testimonials .card .card-body .icon .fa-star{
+    color:orange;
+}
+
+/* Testimonials section ends here  */
+
+/* Pricing section starts here  */
+.pricing {
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.pricing .card{
+    margin-top: 30px;
+    border: none;
+    box-shadow: 2px 2px 20px rgb(173, 172, 172);
+    border-radius: 10px;
+}
+.pricing .card .card-header{
+    background-color: white;
+    text-align: center;
+}
+.pricing .card .card-header h4{
+    font-weight: bold;
+}
+.pricing .card .card-body h1{
+    text-align: center;
+}
+.pricing .card .card-body h1 span{
+    color:#7857FE;
+    font-weight: 700;
+    font-size: 65px;
+}
+.pricing .card .card-body h1 sup{
+    font-size:15px ;
+    position: absolute;
+    left: 60px;
+    top: 105px;
+    color:rgb(160, 151, 151);
+}
+.pricing .card .card-body h1{
+    font-size: 14px;
+    text-transform: uppercase;
+    color:rgb(160, 151, 151);
+}
+.pricing .card .card-body ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+.pricing .card .card-body ul li{
+    padding:8px 0px;
+    border-bottom: 1px solid rgb(233, 232, 232);
+    color:rgb(160, 151, 151);
+}
+.pricing .card .card-body ul li .fa-check{
+    margin-right: 8px;
+    color:#7857FE;
+    
+}
+.pricing .card .card-body .btn-style{
+   display: block;
+   margin: auto;
+   padding:8px 32px;
+   border-radius: 50px;
+   font-size: 17px;
+   background-color: #7857FE;
+   color:white;
+}
+
+
+/* Pricing section ends here  */
+
+
+/* Team Member section starts here  */
+.team-member{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #F7F7F7;
+}
+.team-member .card{
+    padding:17px 17px;
+    border: none;
+    box-shadow: 2px 2px 12px rgb(177, 174, 174);
+    margin-top: 40px;
+}
+.team-member .card .card-title{
+    margin-top: 10px;
+}
+.team-member .card .card-title span{
+    color:rgb(160, 151, 151);
+}
+
+
+/* Team Member section ends here  */
+
+/* Frequently Asked queries section starts here  */
+.frequently{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.frequently .card-header{
+    background-color:white;
+    box-shadow: 2px 2px 12px #dad8d8;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.frequently .card-header a{
+    text-decoration: none;
+    color:#555B61;
+    font-weight: 600;
+    
+}
+.frequently .card-header:hover{
+    background-color: #7857FE;
+}
+.frequently .card-header:hover a{
+    color:white;
+}
+.frequently .collapse p{
+    background-color: #F7F7F7;
+    padding:15px 15px;
+    color:#949698;
+}
+.frequently .card-header .fa-arrow-down{
+    font-size: 18px;
+    margin-left: 172px;
+}
+.frequently .card-header .icons{
+    margin-left: 457px;
+}
+.frequently .card-header .icons1{
+    margin-left: 315px;
+}
+.frequently .card-header .icons2{
+    margin-left: 381px;
+}
+.frequently .card-header:hover .fa-arrow-down{
+    color:white;
+}
+.frequently .bg-color{
+    margin-top: 15px;
+}
+.frequently .box {
+    margin-top: 10px;
+}
+/* Frequently Asked queries section ends here  */
+
+/* Contact Section starts here  */
+.contact{
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background-color: #F7F7F7;
+}
+.contact .contact-left-text ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact .contact-left-text ul li{
+    padding: 10px 0px;
+}
+.contact .contact-left-text ul li .text{
+    color:#46393F;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.contact .contact-left-text ul li span{
+    color:#93A3A4;
+    margin-left: 37px;
+    font-size: 15px;
+
+}
+.contact .btn-style{
+    padding:9px 26px;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: #7857FE;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* Contact Section ends here  */
+
+/* Footer-area starts here  */
+.footer{
+    padding-top: 40px;
+    background-color: #7857FE;
+}
+.footer .box h5{
+    color:white;
+}
+.footer .box p{
+    font-size: 15px;
+    color:#E5DDFF;
+}
+.footer .box ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer .box ul li{
+    padding:4px 0px;
+    font-size: 15px;
+    color:#E5DDFF;
+}
+.footer .box ul li a{
+    font-size: 15px;
+    color:#E5DDFF;
+    
+}
+.footer .text{
+    border: 1px solid #8D71FE;
+}
+
+
+/* Footer-area ends here  */
+
+
+/* Responsive Website Design  */
+
+@media screen and (max-width:991px) {
+    .works .card .number {
+        display: none;
+    }
+    .works hr{
+        display: none;
+    }
+    .works .works-title{
+        margin-bottom: 0px
+    }
+}
